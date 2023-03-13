@@ -1,0 +1,108 @@
+@font-face {
+  font-family: medium-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    /* height: 100%; */
+    position: fixed;
+    width: 100%;
+  }
+
+  .fa-bars {
+    font-size: 30px;
+  }
+
+  nav ul li a {
+    font-family: medium-Lato, sans-serif;
+    font-weight: 600;
+    color: #272a31;
+  }
+
+  .menus {
+    display: none;
+    width: 100%;
+    height: 0;
+    z-index: 1;
+  }
+
+  .menu-container {
+    position: relative;
+  }
+
+  .menuOpen {
+    background-color: #ec5242;
+  }
+
+  .menuOpen .menus {
+    height: 100vh;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+  }
+
+  .menuOpen li a:hover {
+    color: blanchedalmond;
+  }
+
+  .menuOpen .bar1 {
+    transform: rotate(-45deg) translate(-9px, 8px);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .menuOpen .bar2 {
+    display: none;
+  }
+
+  .menuOpen .bar3 {
+    transform: rotate(45deg) translate(-3px);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .menu li {
+    padding: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+
+  .bar {
+    display: flex;
+    width: 40px;
+    height: 2px;
+    padding: 3px 0;
+    margin: 5px 5px;
+    background-color: #272a31;
+    z-index: 999;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .close-container {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
