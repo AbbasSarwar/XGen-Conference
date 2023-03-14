@@ -51,7 +51,7 @@
     align-items: center;
     gap: 20px;
     z-index: 1;
-    scroll-behavior:unset;
+    scroll-behavior: unset;
   }
 
   .menuOpen li a:hover {
