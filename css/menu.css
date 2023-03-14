@@ -40,7 +40,7 @@
   }
 
   .menuOpen {
-    background-color: rgba(236, 82, 66, .5);
+    background-color: rgba(236, 82, 66, 0.5);
   }
 
   .menuOpen .menus {
@@ -93,6 +93,7 @@
     background-color: #535353;
     z-index: 999;
   }
+
   .bar:first-child {
     margin-top: 20px;
   }
@@ -104,6 +105,7 @@
     background-size: cover;
     height: 100vh;
   }
+
   .menu-icon {
     display: none;
   }
@@ -119,6 +121,7 @@
   .close-container {
     display: none;
   }
+
   .menus {
     display: flex;
     flex-direction: row;
@@ -127,17 +130,21 @@
     padding-right: 100px;
     line-height: 75px;
   }
+
   .menus li {
-    padding: 0px 20px;
+    padding: 0 20px;
   }
+
   .menus li a {
     color: #272a31;
   }
-  .menus li:first-child a{
+
+  .menus li:first-child a {
     color: #ec5242;
   }
-  .menus li:last-child a{
-    border:2px solid #ec5242;
+
+  .menus li:last-child a {
+    border: 2px solid #ec5242;
     color: #ec5242;
   }
 }
