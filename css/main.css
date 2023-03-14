@@ -1,0 +1,115 @@
+@font-face {
+    font-family: bold-Lato;
+    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Black.ttf);
+  }
+  @font-face {
+    font-family: light-Lato;
+    src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+  }
+
+
+@media only screen and (max-width:768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .top-heading {
+        padding: 0 20px;
+    }
+    .main-head p:first-child {
+        line-height: 10px;
+        color: #ec5242;
+        font-size: 20px;
+    }
+    .top-heading h1 {
+        line-height: 25px;
+        font-family: bold-Lato, sans-serif;
+        background-image: linear-gradient(to right,#ec5242, #ec5242, #272a31, #ec5242, #ec5242, #ec5242);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 5px;
+        font-weight: 900;
+    }
+    .main-box {
+        text-align: justify;
+        border: 4px solid white;
+        padding: 15px;
+        letter-spacing: -1px;
+        margin: 20px 0;
+    }
+    .main-date {
+        color: #5e5e5e;
+        font-family: bold-Lato, sans-serif;
+        font-weight: 300;
+    }
+    .main-center {
+        color: #5e5e5e;
+        font-family: light-Lato, sans-serif;
+        font-weight: 400;
+    }
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:769px){
+    nav {
+        background-color: #fff;
+        box-shadow: 1px 1px 10px #aaaaaa;
+    }
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .logo img {
+        width: 120px;
+        height: 100%;
+    }
+    .main-head p:first-child {
+        line-height: 10px;
+        color: #ec5242;
+        font-size: 30px;
+        padding-bottom: 22px;
+    }
+    .top-heading {
+        padding: 0 120px;
+    }
+    .top-heading h1 {
+        line-height: 60px;
+        font-family: bold-Lato, sans-serif;
+        background-image: linear-gradient(to right,#ec5242, #562c1d, #ec5242, #ec5242, #ec5242, #ec5242);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 2px;
+        font-weight: 900;
+        font-size: 65px;
+        margin-top: -10px;
+    }
+    .main-box {
+        text-align: justify;
+        border: 4px solid white;
+        padding: 20px;
+        width: 60%;
+        letter-spacing: -1px;
+        margin: 20px 0;
+        color: #565252;;
+        font-family: light-Lato,sans-serif;
+    }
+    .main-date {
+        color: #5e5e5e;
+        font-family: bold-Lato, sans-serif;
+        font-weight: 300;
+    }
+    .main-center {
+        color: #5e5e5e;
+        font-family: light-Lato, sans-serif;
+        font-weight: 400;
+    }
+}
