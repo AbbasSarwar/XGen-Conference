@@ -106,7 +106,6 @@
     .details-image {
         position: absolute;
         justify-content: center;
-        border: 1px solid black;
         align-items: center;
         color: #fff;
         background: rgba(199, 33, 33, 0.5);
@@ -115,7 +114,6 @@
     }
     .card-layout {
         width: 100%;
-        border: 1px solid black;
         font-family: light-Lato, sans-serif;
         height: 100%;
         display: flex;
@@ -135,7 +133,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid rgb(162, 162, 162);
+        border-bottom: 1px solid rgb(207, 206, 206);
     }
     .more-details {
         display: flex;
@@ -237,7 +235,6 @@
     .details-image {
         position: absolute;
         justify-content: center;
-        border: 1px solid black;
         align-items: center;
         color: #fff;
         background: rgba(199, 33, 33, 0.5);
@@ -246,7 +243,6 @@
     }
     .card-layout {
         width: 100%;
-        border: 1px solid black;
         font-family: light-Lato, sans-serif;
         height: 100%;
         display: flex;
