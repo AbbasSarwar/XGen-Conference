@@ -142,6 +142,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgba(97, 100, 108, 0.7);
+    height: 42vh;
   }
 
   .lecture {
