@@ -53,6 +53,12 @@
     z-index: 1;
   }
 
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+  }
+
   .menuOpen .hamburger {
     position: fixed;
     top: 0;
@@ -82,12 +88,6 @@
 
   .menu li {
     padding: 10px 0;
-  }
-
-  .hamburger {
-    display: flex;
-    cursor: pointer;
-    flex-direction: column;
   }
 
   .bar {
