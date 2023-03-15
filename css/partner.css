@@ -155,4 +155,7 @@
   .footer-partner {
     padding: 15px 0;
   }
+  .footer-hide{
+    display: none;
+  }
 }
