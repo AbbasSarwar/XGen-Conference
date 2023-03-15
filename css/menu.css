@@ -51,7 +51,13 @@
     align-items: center;
     gap: 20px;
     z-index: 1;
-    scroll-behavior: unset;
+  }
+
+  .menuOpen .hamburger {
+    position: fixed;
+    top: 0;
+    background-color: rgb(227, 115, 102);
+    width: 100%;
   }
 
   .menuOpen li a:hover {
