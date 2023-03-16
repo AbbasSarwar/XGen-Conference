@@ -48,7 +48,7 @@
     line-height: 20px;
   }
 
-  .about-head p:first-child {
+  .about-head h6 {
     line-height: 10px;
     color: #ec5242;
     font-size: 20px;
@@ -134,10 +134,10 @@
     line-height: 20px;
   }
 
-  .about-head p:first-child {
+  .about-head h6 {
     line-height: 10px;
     color: #ec5242;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 22px;
   }
 
