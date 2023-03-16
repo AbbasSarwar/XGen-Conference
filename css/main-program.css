@@ -175,7 +175,7 @@
     display: flex;
     text-align: center;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 10px 8px;
     height: 15vh;
   }
 
@@ -185,5 +185,8 @@
 
   .btn-main-desk {
     color: #ebd1d1;
+  }
+  .card4 {
+    border: 2px solid white;
   }
 }
