@@ -27,7 +27,7 @@
   }
 
   .about-head h1 {
-    line-height: 25px;
+    line-height: 30px;
     font-family: bold-Lato, sans-serif;
     background-image: linear-gradient(to right, #ec5242, #ec5242, #272a31, #ec5242, #ec5242, #ec5242);
     /* stylelint-disable */
@@ -39,7 +39,7 @@
     font-weight: 900;
     color: transparent;
     width: 80%;
-    font-size: 24px;
+    font-size: 1.6em;
     text-align: center;
   }
 
