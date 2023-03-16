@@ -22,8 +22,8 @@
   }
 
   .heading-main span {
-    border: 2px solid #ec5242;
-    width: 20px;
+    border: 1px solid #ec5242;
+    width: 45px;
     margin-bottom: 30px;
   }
 
@@ -129,6 +129,7 @@
     width: 10%;
     height: 1px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #ec5242;
   }
 
   .main-main {
