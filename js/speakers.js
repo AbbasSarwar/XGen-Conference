@@ -23,7 +23,7 @@ const speakers = [
   },
   {
     name: 'Henly',
-    quote: '',
+    quote: 'Spokesperson',
     message: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
     image: 'image-resources/person4.jpg',
   },
