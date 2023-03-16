@@ -114,7 +114,7 @@
     padding: 60px 120px;
     font-family: light-Lato, sans-serif;
     font-weight: 100;
-    background: url(/image-resources/black-2696879_1920.jpg);
+    background: url(/image-resources/black-2696879_1920.jpg), #272a31;
     background-size: cover;
     color: #fff;
     display: flex;
