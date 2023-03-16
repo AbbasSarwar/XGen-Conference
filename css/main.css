@@ -1,0 +1,140 @@
+@font-face {
+  font-family: bold-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: light-Lato;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Cocogoose-trial";
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/cocogoose_trial.otf);
+}
+
+@media only screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .top-heading {
+    padding: 20px 20px;
+  }
+
+  .main-head h6 {
+    line-height: 10px;
+    color: #ec5242;
+    font-size: 20px;
+  }
+
+  .top-heading h1 {
+    line-height: 32px;
+    font-family: "Cocogoose-trial", sans-serif;
+    background-image: linear-gradient(to right, #ec5242, #ec5242, #272a31, #ec5242, #ec5242, #ec5242);
+    /* stylelint-disable */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    /* stylelint-enable */
+    color: transparent;
+    font-weight: 100;
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .main-box {
+    text-align: justify;
+    border: 4px solid white;
+    padding: 15px;
+    letter-spacing: -1px;
+    margin: 20px 0;
+  }
+
+  .main-date {
+    color: #5e5e5e;
+    font-family: bold-Lato, sans-serif;
+    font-weight: 300;
+  }
+
+  .main-center {
+    color: #5e5e5e;
+    font-family: light-Lato, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  nav {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #aaa;
+  }
+
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .logo img {
+    width: 120px;
+    height: 100%;
+  }
+
+  .main-head h6 {
+    line-height: 10px;
+    color: #ec5242;
+    font-size: 25px;
+    padding-bottom: 22px;
+  }
+
+  .top-heading {
+    padding: 0 120px;
+  }
+
+  .top-heading h1 {
+    line-height: 60px;
+    font-family: "Cocogoose-trial", sans-serif;
+    background-image: linear-gradient(to right, #ec5242, #562c1d, #ec5242, #ec5242, #ec5242, #ec5242);
+    /* stylelint-disable */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    /* stylelint-enable */
+    color: transparent;
+    font-weight: 300;
+    font-size: 65px;
+    margin-top: -10px;
+  }
+
+  .main-box {
+    text-align: justify;
+    border: 4px solid white;
+    padding: 20px;
+    width: 60%;
+    letter-spacing: -1px;
+    margin: 20px 0;
+    color: #565252;
+    font-family: light-Lato, sans-serif;
+  }
+
+  .main-date {
+    color: #5e5e5e;
+    font-family: bold-Lato, sans-serif;
+    font-weight: 300;
+  }
+
+  .main-center {
+    color: #5e5e5e;
+    font-family: light-Lato, sans-serif;
+    font-weight: 400;
+  }
+}
