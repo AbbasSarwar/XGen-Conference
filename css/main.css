@@ -8,6 +8,11 @@
   src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
 }
 
+@font-face {
+  font-family: "Cocogoose-trial";
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/cocogoose_trial.otf);
+}
+
 @media only screen and (max-width: 768px) {
   * {
     padding: 0;
@@ -27,7 +32,7 @@
 
   .top-heading h1 {
     line-height: 32px;
-    font-family: bold-Lato, sans-serif;
+    font-family: "Cocogoose-trial", sans-serif;
     background-image: linear-gradient(to right, #ec5242, #ec5242, #272a31, #ec5242, #ec5242, #ec5242);
     /* stylelint-disable */
     -webkit-background-clip: text;
@@ -35,7 +40,6 @@
     background-clip: text;
     /* stylelint-enable */
     color: transparent;
-    letter-spacing: 0px;
     font-weight: 900;
     width: 100%;
     font-size: 2em;
@@ -98,7 +102,7 @@
 
   .top-heading h1 {
     line-height: 60px;
-    font-family: bold-Lato, sans-serif;
+    font-family: "Cocogoose-trial", sans-serif;
     background-image: linear-gradient(to right, #ec5242, #562c1d, #ec5242, #ec5242, #ec5242, #ec5242);
     /* stylelint-disable */
     -webkit-background-clip: text;
@@ -106,8 +110,7 @@
     background-clip: text;
     /* stylelint-enable */
     color: transparent;
-    letter-spacing: 0px;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 65px;
     margin-top: -10px;
   }

@@ -8,6 +8,11 @@
   src: url(/fonts/Lato2OFLWeb/Lato/fonts/Lato-Medium.ttf);
 }
 
+@font-face {
+  font-family: coco;
+  src: url(/fonts/Lato2OFLWeb/Lato/fonts/Ubuntu-B.ttf);
+}
+
 @media only screen and (max-width: 768px) {
   .about {
     display: flex;
@@ -28,16 +33,9 @@
 
   .about-head h1 {
     line-height: 30px;
-    font-family: bold-Lato, sans-serif;
-    background-image: linear-gradient(to right, #ec5242, #ec5242, #272a31, #ec5242, #ec5242, #ec5242);
-    /* stylelint-disable */
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    /* stylelint-enable */
-    letter-spacing: 0px;
-    font-weight: 900;
-    color: transparent;
+    font-family: "Cocogoose-trial", sans-serif;
+    color: #ec5242;
+    font-weight: 100;
     width: 80%;
     font-size: 1.6em;
     text-align: center;
@@ -104,7 +102,7 @@
 
   .about-head h1 {
     line-height: 60px;
-    font-family: bold-Lato, sans-serif;
+    font-family: "Cocogoose-trial", sans-serif;
     background-image: linear-gradient(to right, #ec5242, #562c1d, #ec5242, #ec5242, #ec5242, #ec5242);
     /* stylelint-disable */
     -webkit-background-clip: text;
@@ -112,8 +110,7 @@
     background-clip: text;
     /* stylelint-enable */
     color: transparent;
-    letter-spacing: 0px;
-    font-weight: 900;
+    font-weight: 300;
     font-size: 50px;
     margin-top: -10px;
     width: 60%;
